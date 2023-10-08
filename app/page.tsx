@@ -9,6 +9,7 @@ import { ProductGrid } from "@/components/product-grid"
 import { ProductSort } from "@/components/product-sort"
 import { seedSanityData } from "@/lib/seed"
 import { setDefaultResultOrder } from "dns"
+import Home from "@/components/Home"
 
 interface Props {
   searchParams:{
@@ -52,8 +53,8 @@ export default async function Page({searchParams}: Props) {
   return (
     <div>
       <div className="px-4 pt-20 text-center">
-        <h1 className="text-4xl font-extrabold tracking-normal">{siteConfig.name}</h1>
-        <p className="mx-auto mt-4 max-w-3xl text-base">{siteConfig.description}</p>
+        
+        <Home/>
       </div>
       <div>
         <main className="mx-auto max-w-6xl px-6">

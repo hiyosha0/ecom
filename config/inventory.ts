@@ -24,8 +24,8 @@ export interface SanityProduct extends Omit<InventoryProduct, "images"> {
 export const inventory: InventoryProduct[] = [
   {
     id: "64da6006-a4bb-4555-af78-3467853eb75e",
-    sku: "canvas_tote_bag_1",
-    name: "Canvas Tote Bag",
+    sku: "Lagoon crab",
+    name: "Lagoon crab",
     description: `Meet your new favorite carry-on. Our supersized tote is crafted in durable waxed cotton canvas that's rugged and durable, ideal for hauling all of your stuff. This size takes you to and from the farmer's market, the gym or a weekend getaway.`,
     price: 16800, // price in smallest currency unit (e.g. cent for USD)
     image:
